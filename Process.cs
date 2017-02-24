@@ -9,6 +9,7 @@ namespace os_ass2
     public class Process :IComparable<Process>
     {
         /////////////Variables
+        int x=3;
         public double ArrivalTime;
         public double Priority, BurstTime,RemainingTime;
         public int pNumber;
